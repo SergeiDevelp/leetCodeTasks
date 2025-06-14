@@ -5,9 +5,10 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
+        Console.WriteLine("Task 605 is done. I used a greedy algorithm.");
         var sol = new Solution();
         int[] flowerbed = [1, 0, 0, 0, 1];
-        int n = 2;
+        int n = 1;
         bool canPlant = sol.CanPlaceFlowers(flowerbed, n);
         
         Console.WriteLine(canPlant);
